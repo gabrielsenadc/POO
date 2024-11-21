@@ -1,7 +1,7 @@
 public class Departamento {
   private String nome;
   private java.util.List<Funcionario> funcionarios;
-  private Empresa empresa
+  private Empresa empresa;
 
   public Departamento(String nome, Empresa empresa) {
     this.nome = nome;
