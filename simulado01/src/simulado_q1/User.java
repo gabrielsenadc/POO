@@ -26,7 +26,10 @@ public class  User {
     public int getQttTweets(){
         return tweets.size();
     }
-    
+
+    public String getName() {
+        return name;
+    }
 
     
 }
